@@ -1,0 +1,136 @@
+/*Pc*/
+
+@media screen and (max-width: 991px){
+    .nav-togal{
+        display: block;
+        color: white;
+        margin-right: 20px;
+    }
+
+   .nav-address{
+    display: none;
+   }
+
+   .nav-search{
+       display: none;
+
+   }
+
+   .nav-language{
+    display: none;
+   }
+
+   .nav-singin{
+    display: none;
+   }
+
+   .nav-return{
+    display: none;
+   }
+
+   .nav-cart {
+    display: none;
+   }
+
+    .panel{
+        justify-content: flex-start;
+    }
+
+    .panel-all{
+        margin-left: 20px;
+    }
+
+    .panel-ops{
+        display: none;
+
+    }
+
+    .panel-deals{
+        display: none;
+
+    }
+
+    /*hero-section*/
+    .hero-section{
+        height: 390px;
+        width: 100%;
+        background-size: contain;
+    
+    }
+
+    .hero-msg{
+        text-align: center;
+    }
+
+    /*shop section*/
+    .shop-section{
+        gap: 20px;
+    }
+    
+    .box{
+        width: calc(50% - 10px);
+        
+    }
+}
+
+/*tablet*/
+@media screen and (max-width: 768px){
+    .hero-section{
+        height: 307px;
+        width: 100%;
+        background-size: contain;
+    }
+}
+
+/*Mobile L*/
+@media screen and (max-width: 426px){
+    .hero-section{
+        height: 170px;
+        width: 100%;
+        background-size: contain;
+    }
+
+    .hero-msg{
+        font-size: 8px;
+    }
+
+    .hero-msg a{
+        font-size: 8px;
+    }
+
+    .foot-panel2{
+        flex-wrap: wrap;
+    }
+
+    ul{
+        width: 50%;
+    }
+}
+
+/*Mobile M*/
+
+@media screen and (max-width: 376px){
+    .hero-section{
+        height: 151px;
+        width: 376px;
+        background-size: contain;
+    }
+
+    .hero-msg{
+        font-size: 8px;
+    }
+
+    .shop-section{
+        
+    }
+    
+    .box{
+        width:100%;
+        
+    }
+
+    
+    
+
+   
+}
