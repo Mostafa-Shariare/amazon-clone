@@ -233,6 +233,37 @@ span{
     color: #007185;
 }
 
+/*Account Button*/
+.account-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.account-btn button{
+    height: 50px;
+    width: 200px;
+    color: black;
+    text-shadow: 0 1px 0 #ffe093;
+    background: linear-gradient(to top, #fef104, #dadd0b);
+    border: none;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.5); 
+    ;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+
+.account-btn a{
+    color: blue;
+}
+
+
 /*footer*/
 
 footer{
