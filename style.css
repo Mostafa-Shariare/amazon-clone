@@ -202,6 +202,7 @@ span{
     justify-content: space-evenly;
     background: linear-gradient(to right, #324065, #bbd0d3);
     padding-top: 15px;
+    
 }
 
 .box{
@@ -210,6 +211,7 @@ span{
     background-color: white;
     padding: 20px, 0px, 15px;
     margin-top: 15px;
+    margin-bottom: 20px;
     
 }
 
